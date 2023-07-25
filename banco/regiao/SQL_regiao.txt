@@ -1,9 +1,0 @@
-INSERT INTO regiao (nome, id_regiao) VALUES ('Asia', '1');
-INSERT INTO regiao (nome, id_regiao) VALUES ('Oceania', '2');
-INSERT INTO regiao (nome, id_regiao) VALUES ('Oceania', '3');
-INSERT INTO regiao (nome, id_regiao) VALUES ('Middle East', '4');
-INSERT INTO regiao (nome, id_regiao) VALUES ('Europe', '5');
-INSERT INTO regiao (nome, id_regiao) VALUES ('Africa', '6');
-INSERT INTO regiao (nome, id_regiao) VALUES ('Latin America', '7');
-INSERT INTO regiao (nome, id_regiao) VALUES ('North America', '8');
-INSERT INTO regiao (nome, id_regiao) VALUES ('N/A', '9');
