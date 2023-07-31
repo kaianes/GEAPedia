@@ -92,7 +92,7 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
 
 - Acessem o banco físico:</br>
 
-1. Baixar o <a href="https://sqlitebrowser.org/dl/">DB Browser</a>.:</br>
+1. Baixar o <a href="https://sqlitebrowser.org/dl/">DB Browser</a>:</br>
 
 seguir os passos::</br>
     Open Database - selecionar o arquivo "banco.db" dentro da pasta "data" - clicar em Browse Data - Escolher a tabela que quiser (provavelmente a "projetos" seja a mais procurada):</br>
