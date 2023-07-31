@@ -79,7 +79,7 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
         npm install express
         ```
 
-        e. Digite no terminal/prompt: "node app.js + <ENTER>":</br>
+        e. Digite no terminal/prompt: "node app.js + "\<ENTER>".</br>
         EX: PS C:\Users\kaiane.cordeiro\Documents\geapedia\GEAP\backend> node .\app.js:</br>
 
 

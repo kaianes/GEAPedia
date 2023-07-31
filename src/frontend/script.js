@@ -105,7 +105,7 @@ function filtrar() {
   data = JSON.stringify(data)
   console.log(data)
 
-  $("#loading").css("display", "block");
+  $("#loading").css("display", "flex");
 
   axios
     .get("http://localhost:1234/pesquisar_projetos", {
