@@ -97,7 +97,7 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
 seguir os passos::</br>
     Open Database - selecionar o arquivo "banco.db" dentro da pasta "data" - clicar em Browse Data - Escolher a tabela que quiser (provavelmente a "projetos" seja a mais procurada):</br>
 
-Se for pedido: selecionar a opçao sqlite.:</br>
+Se for pedido: selecionar a opçao sqlite.</br>
 
 
 ## 🗃 Histórico de lançamentos
