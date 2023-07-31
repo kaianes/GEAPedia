@@ -1,6 +1,6 @@
 # Vision Brazil Investments & GEAP
 <p>
-<a href= "https://visionbrazil.com/"><img src="./src/frontend/imagens/GEAP_logo_grad.svg" alt="GEAP" border="0" width="400"></a>
+<a href= "https://visionbrazil.com/"><img src="./src/frontend/imagens/GEAP.jpg" alt="LOGO GEAP" border="0" width="400"></a>
 </p>
 
 # GEAPédia
