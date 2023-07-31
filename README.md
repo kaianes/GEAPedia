@@ -1,6 +1,6 @@
 # Vision Brazil Investments & GEAP
 <p>
-<a href= "https://visionbrazil.com/"><img src="./src/frontend/imagens/GEAP_LOGO-removebg-preview.png" alt="GEAP" border="0" width="400"></a>
+<a href= "https://visionbrazil.com/"><img src="./src/frontend/imagens/GEAP_logo_grad.svg" alt="GEAP" border="0" width="400"></a>
 </p>
 
 # GEAPédia
@@ -21,20 +21,22 @@ Esta versão de entrega não incluirá link para o deploy em um servidor.
 ## 📁 Estrutura de pastas
 
 <pre>
+    |src
+        |backend
+                |app.js
+        |data
+                |banco.db
+                |banco.jpg
+        |frontend
+                |->imagens
+                |index.html
+                |scipt.js
+                |style.css
+    |extras            
+        |data_banco
+        |data_standards
 
-  |Backend
-        |app.js
-  |Data
-        |banco.db
-  |Frontend
-        |imagens
-        |index.html
-        |scipt.js
-        |style.css
-  |standards
-  |banco
-
-  |README.md
+    |README.md
 </pre>
 
 
@@ -48,7 +50,6 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
 
     - isso pode ser feito da seguinte maneira: </br>
 
-
         a. Veja se a ultima pasta aberta é a "GEAP"</br>
 
         EX: PS C:\Users\kaiane.cordeiro\Documents\geapedia\GEAP> </br>
@@ -58,7 +59,7 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
 
         EX: PS C:\Users\kaiane.cordeiro\Documents\geapedia\GEAP> cd src</br>
 
-        b. Repita o processo entre na pasta "backend"</br>
+        c. Repita o processo entre na pasta "backend"</br>
 
 
         EX: PS C:\Users\kaiane.cordeiro\Documents\geapedia\GEAP\src> cd .\backend\</br>
@@ -78,7 +79,7 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
         npm install express
         ```
 
-        d. Digite no terminal/prompt: "node app.js + <ENTER>":</br>
+        e. Digite no terminal/prompt: "node app.js + <ENTER>":</br>
         EX: PS C:\Users\kaiane.cordeiro\Documents\geapedia\GEAP\backend> node .\app.js:</br>
 
 
