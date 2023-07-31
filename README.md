@@ -1,6 +1,6 @@
 # Vision Brazil Investments & GEAP
 <p>
-<a href= "https://visionbrazil.com/"><img src="./src/frontend/imagens/GEAP.jpg" alt="LOGO GEAP" border="0" width="400"></a>
+<a href= "https://visionbrazil.com/"><img src="./src/frontend/imagens/GEAP.jpg" alt="LOGO GEAP" border="0"></a>
 </p>
 
 # GEAPédia
@@ -83,7 +83,7 @@ Aqui encontram-se todas as instruções necessárias para a instalação de todo
         EX: PS C:\Users\kaiane.cordeiro\Documents\geapedia\GEAP\backend> node .\app.js:</br>
 
 
-5. Agora você pode acessar a aplicação através do link http://localhost:1234:</br>
+5. Agora você pode acessar a aplicação através do link: http://localhost:1234</br>
 6. O servidor está online.:</br>
 
 (Parabéns!! São praticamente desenvolvedores já!!):</br>
