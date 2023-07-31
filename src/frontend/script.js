@@ -21,6 +21,26 @@ $(document).ready(function () {
 });
 
 
+function selecionar_tudo(desmarcar) {
+
+  const todos_check = document.querySelectorAll('#select input[type=checkbox]');
+
+  todos_check.forEach(el => {
+    if (!desmarcar){
+      el.checked = true;
+    } else {
+      el.checked = false;
+    }
+  });
+  
+  if (!desmarcar){
+    document.querySelector('#selecionar_tudo').setAttribute('onchange', 'selecionar_tudo(true)');
+  } else {
+    document.querySelector('#selecionar_tudo').setAttribute('onchange', 'selecionar_tudo()');
+  }
+  
+}
+
 
 function filtrar() {
   
