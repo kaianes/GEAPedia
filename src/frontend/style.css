@@ -31,10 +31,9 @@ h1 {
     align-items: center;
 }
 
-img {
-    height: 100px;
-    width: auto;
-    padding: 10px;
+#geap-logo {
+    width: 105px;
+    margin-left: 30px;
 }
 
 #GEAP {
@@ -128,22 +127,54 @@ img {
     padding: 20px;
 }
 
+#gold-slider {
+    height: 55px;
+}
+
+#acr-slider {
+    width: 200px;
+}
+
+#car-slider {
+    height: 105px;
+}
+
+#art-slider {
+    height: 75px;
+}
+
+#plan-slider {
+    height: 95px;
+}
+
+#bio-slider {
+    height: 75px;
+}
+
+#verra-slider {
+    width: 200px;
+}
+
 .slider {
+    margin-top: 30px;
     overflow: hidden;
     background-color: white;
     height: 125px;
-    width: 100%;
+    width: 99%;
 }
 
 .slide-track {
     display: flex;
-    animation: scroll 30s linear infinite;
-    gap: 30px
+    animation: scroll 10s linear infinite;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1000px;
 }
 
 @keyframes scroll {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-500px * 5)); }
+    100% { transform: translateX(calc(-330px * 2)); }
 }
 
 
@@ -272,28 +303,18 @@ sec {
     margin-bottom: 20px;
 }
 
-.analise{
-    display: flex;
-    flex-direction: row;
+#geap-dados {
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+    margin-bottom: 30px;
 }
 
-.projetos-analise {
-    display: flex;
-    flex-direction: row;
-    gap:10px;
-
-}
-
-#geral {
+.geral {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    gap: 30px;
 }
 
 .total {
@@ -306,5 +327,24 @@ sec {
     color: black;
     align-items: center;
     flex-direction: column;
-    
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.img-gold {
+    width: 200px;
+    height: auto;
+}
+
+#img-car{
+    height: 150px;
 }
