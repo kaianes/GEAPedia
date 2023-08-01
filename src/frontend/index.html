@@ -43,119 +43,121 @@
     <div id="loading"></div>
 
     <div class="modal" id="myModal">
-        <div class="modal-content">
-            <div id="modal-title">
-                <span class="close">&times;</span>
-            </div>
-            <div id="select">
+        <div class="modal-container">
+            <div class="modal-content">
+                <div id="modal-title">
+                    <span class="close">&times;</span>
+                </div>
+                <div id="select">
 
-                <div id="standreed">
-                    <div id="standards">
-                        <h3>STANDARDS</h3>
-                        <input type="checkbox" id="verra" name="verra" value="Verra">
-                        <label for="verra">Verra</label><br>
-                        <input type="checkbox" id="gold" name="gold" value="Gold">
-                        <label for="gold">Gold</label><br>
-                        <input type="checkbox" id="acr" name="acr" value="American Carbon Regisry">
-                        <label for="acr">American Carbon Registry</label><br>
-                        <input type="checkbox" id="car" name="car" value="Climate Action Reserve">
-                        <label for="car">Climate Action Reserve</label><br>
-                        <input type="checkbox" id="art" name="art" value="ART REDD">
-                        <label for="art">ART REDD</label><br>
-                        <input type="checkbox" id="pv" name="pv" value="Plan Vivo">
-                        <label for="pv">Plan Vivo</label><br>
-                        <input type="checkbox" id="bcr" name="bcr" value="BioCarbon Registry">
-                        <label for="bcr">BioCarbon Registry</label><br>
-                        <h3>REDD</h3>
-                        <input type="checkbox" id="redd" name="redd" value="Redd">
-                        <label for="redd">Redd</label>
-                        <h3>EXTRA</h3>
-                        <input type="checkbox" id="selecionar_tudo" onchange="selecionar_tudo()">
-                        <label for="selecionar_tudo">Selecionar tudo</label><br>
+                    <div id="standreed">
+                        <div id="standards">
+                            <h3>STANDARDS</h3>
+                            <input type="checkbox" id="verra" name="verra" value="Verra">
+                            <label for="verra">Verra</label><br>
+                            <input type="checkbox" id="gold" name="gold" value="Gold">
+                            <label for="gold">Gold</label><br>
+                            <input type="checkbox" id="acr" name="acr" value="American">
+                            <label for="acr">American Carbon Registry</label><br>
+                            <input type="checkbox" id="car" name="car" value="Climate">
+                            <label for="car">Climate Action Reserve</label><br>
+                            <input type="checkbox" id="art" name="art" value="ART">
+                            <label for="art">ART REDD</label><br>
+                            <input type="checkbox" id="pv" name="pv" value="Plan">
+                            <label for="pv">Plan Vivo</label><br>
+                            <input type="checkbox" id="bcr" name="bcr" value="BioCarbon">
+                            <label for="bcr">BioCarbon Registry</label><br>
+                            <h3>REDD</h3>
+                            <input type="checkbox" id="redd" name="redd" value="Redd">
+                            <label for="redd">Redd</label>
+                            <h3>EXTRA</h3>
+                            <input type="checkbox" id="selecionar_tudo" onchange="selecionar_tudo()">
+                            <label for="selecionar_tudo">Selecionar tudo</label><br>
+                        </div>
+
+                        
+
+                    </div>
+                    
+                    <div id="temas">
+                        <h3>TEMAS</h3>
+                        <input type="checkbox" id="afolu" name="afolu" value="AFOLU">
+                        <label for="afolu">AFOLU</label><br>
+                    
+                        <input type="checkbox" id="energy" name="energy" value="Energy">
+                        <label for="energy">Energy</label><br>
+                    
+                        <input type="checkbox" id="waste" name="energy" value="Waste">
+                        <label for="waste">Waste handling</label><br>
+                    
+                        <input type="checkbox" id="industry" name="industry" value="Industry">
+                        <label for="industry">Industry</label><br>
+                    </div>
+                    <div id="paises">
+                        <h3>PAÍSES</h3>
+
+                        <input type="checkbox" id="brazil" name="brazil" value="Brazil">
+                        <label for="brazil">Brazil</label><br>
+                        <input type="checkbox" id="china" name="china" value="China">
+                        <label for="china">China</label><br>
+                        <input type="checkbox" id="colombia" name="colombia" value="Colombia">
+                        <label for="colombia">Colombia</label><br>
+                        <input type="checkbox" id="india" name="india" value="India">
+                        <label for="india">India</label><br>
+                        <input type="checkbox" id="indonesia" name="indonesia" value="Indonesia">
+                        <label for="indonesia">Indonesia</label><br>
+                        <input type="checkbox" id="kenya" name="kenya" value="Kenya">
+                        <label for="kenya">Kenya</label><br>
+                        <input type="checkbox" id="malaysia" name="malaysia" value="Malaysia">
+                        <label for="malaysia">Malaysia</label><br>
+                        <input type="checkbox" id="mexico" name="mexico" value="Mexico">
+                        <label for="mexico">Mexico</label><br>
+                        <input type="checkbox" id="peru" name="peru" value="Peru">
+                        <label for="peru">Peru</label><br>
+                        <input type="checkbox" id="philippines" name="philippines" value="Philippines">
+                        <label for="philippines">Philippines</label><br>
+                        <input type="checkbox" id="south_africa" name="south_africa" value="South">
+                        <label for="south_africa">South Africa</label><br>
+                        <input type="checkbox" id="thailand" name="thailand" value="Thailand">
+                        <label for="thailand">Thailand</label><br>
+                        <input type="checkbox" id="turkey" name="turkey" value="Turkey">
+                        <label for="turkey">Turkey</label><br>
+                        <input type="checkbox" id="vietnam" name="vietnam" value="Vietnam">
+                        <label for="vietnam">Vietnam</label><br>
+                        
+                    </div>
+                    <div id="regioes">
+                        <h3>REGIÕES</h3>
+                        <input type="checkbox" id="africa" name="africa" value="Africa">
+                        <label for="africa">Africa</label><br>
+                        
+                        <input type="checkbox" id="asia" name="asia" value="Asia">
+                        <label for="asia">Asia</label><br>
+                        
+                        <input type="checkbox" id="europe" name="europe" value="Europe">
+                        <label for="europe">Europe</label><br>
+                        
+                        <input type="checkbox" id="latin_america" name="latin_america" value="Latin">
+                        <label for="latin_america">Latin America</label><br>
+                        
+                        <input type="checkbox" id="middle_east" name="middle_east" value="Middle">
+                        <label for="middle_east">Middle East</label><br>
+                        
+                        <input type="checkbox" id="north_america" name="north_america" value="North">
+                        <label for="north_america">North America</label><br>
+                        
+                        <input type="checkbox" id="oceania" name="oceania" value="Oceania">
+                        <label for="oceania">Oceania</label><br>
+                        
                     </div>
 
-                    
-
                 </div>
                 
-                <div id="temas">
-                    <h3>TEMAS</h3>
-                    <input type="checkbox" id="afolu" name="afolu" value="AFOLU">
-                    <label for="afolu">AFOLU</label><br>
-                
-                    <input type="checkbox" id="energy" name="energy" value="Energy">
-                    <label for="energy">Energy</label><br>
-                
-                    <input type="checkbox" id="waste" name="energy" value="Waste handling">
-                    <label for="waste">Waste handling</label><br>
-                
-                    <input type="checkbox" id="industry" name="industry" value="Industry">
-                    <label for="industry">Industry</label><br>
-                </div>
-                <div id="paises">
-                    <h3>PAÍSES</h3>
-
-                    <input type="checkbox" id="brazil" name="brazil" value="brazil">
-                    <label for="brazil">Brazil</label><br>
-                    <input type="checkbox" id="china" name="china" value="china">
-                    <label for="china">China</label><br>
-                    <input type="checkbox" id="colombia" name="colombia" value="colombia">
-                    <label for="colombia">Colombia</label><br>
-                    <input type="checkbox" id="india" name="india" value="india">
-                    <label for="india">India</label><br>
-                    <input type="checkbox" id="indonesia" name="indonesia" value="indonesia">
-                    <label for="indonesia">Indonesia</label><br>
-                    <input type="checkbox" id="kenya" name="kenya" value="kenya">
-                    <label for="kenya">Kenya</label><br>
-                    <input type="checkbox" id="malaysia" name="malaysia" value="malaysia">
-                    <label for="malaysia">Malaysia</label><br>
-                    <input type="checkbox" id="mexico" name="mexico" value="mexico">
-                    <label for="mexico">Mexico</label><br>
-                    <input type="checkbox" id="peru" name="peru" value="peru">
-                    <label for="peru">Peru</label><br>
-                    <input type="checkbox" id="philippines" name="philippines" value="philippines">
-                    <label for="philippines">Philippines</label><br>
-                    <input type="checkbox" id="south_africa" name="south_africa" value="south_africa">
-                    <label for="south_africa">South Africa</label><br>
-                    <input type="checkbox" id="thailand" name="thailand" value="thailand">
-                    <label for="thailand">Thailand</label><br>
-                    <input type="checkbox" id="turkey" name="turkey" value="turkey">
-                    <label for="turkey">Turkey</label><br>
-                    <input type="checkbox" id="vietnam" name="vietnam" value="vietnam">
-                    <label for="vietnam">Vietnam</label><br>
-                    
-                </div>
-                <div id="regioes">
-                    <h3>REGIÕES</h3>
-                    <input type="checkbox" id="africa" name="africa" value="Africa">
-                    <label for="africa">Africa</label><br>
-                    
-                    <input type="checkbox" id="asia" name="asia" value="Asia">
-                    <label for="asia">Asia</label><br>
-                    
-                    <input type="checkbox" id="europe" name="europe" value="Europe">
-                    <label for="europe">Europe</label><br>
-                    
-                    <input type="checkbox" id="latin_america" name="latin_america" value="Latin America">
-                    <label for="latin_america">Latin America</label><br>
-                    
-                    <input type="checkbox" id="middle_east" name="middle_east" value="Middle East">
-                    <label for="middle_east">Middle East</label><br>
-                    
-                    <input type="checkbox" id="north_america" name="north_america" value="North America">
-                    <label for="north_america">North America</label><br>
-                    
-                    <input type="checkbox" id="oceania" name="oceania" value="Oceania">
-                    <label for="oceania">Oceania</label><br>
-                    
+                <div>
+                    <button id="filter_button" class="search-button" onclick="filtrarCheck()" type="submit">Pesquisar</button>
                 </div>
 
             </div>
-            
-            <div>
-                <button id="filter_button" class="search-button" onclick="filtrar()" type="submit">Pesquisar</button>
-            </div>
-
         </div>
     </div>
 
